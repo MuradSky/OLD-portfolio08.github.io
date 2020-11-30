@@ -1,0 +1,21 @@
+@mixin  flex-just($f, $j) {
+    display: $f;
+    justify-content: $j;
+}
+@mixin  flex-align($f, $a) {
+    display: $f;
+    align-items: $a;
+}
+@mixin  flex-just-align($f, $j, $a) {
+    display: $f;
+    justify-content: $j;
+    align-items: $a;
+}
+@mixin  font($f, $w, $s, $lh , $c) {
+    font-family: $f;
+    font-weight: $w;
+    font-size: $s;
+    line-height: $lh;
+
+    color: $c;
+}
